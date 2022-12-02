@@ -1,0 +1,152 @@
+.header{
+    background-color: rgba(128, 128, 238, 0.911);
+}
+.navbar{ 
+    color: blue;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    }
+    .logo {
+        vertical-align: middle;
+        width: 160px;
+        height: 120px;
+    }
+    .header a {
+        font-size:40px;
+        font-style: italic;
+        color: whitesmoke;
+        padding:10px;
+
+    }
+    .nav ul {
+        
+        list-style-type:none;
+        background-color:black;
+        margin: 0;
+        padding: 0;
+        overflow:hidden;
+    }
+    .nav .bar {
+        
+        float:right;
+        padding:14px 16px;
+    }
+    
+    .nav .bar a {
+        color:white;
+        text-decoleration:none;
+    }
+    
+        
+        /* Styling the area of the slides */
+        #slideshow {
+        overflow: hidden;
+        height: 200px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 30%;
+        margin-right: 30%;
+        
+
+        }
+        
+        /* Style each of the sides
+        with a fixed width and height */
+        .slide {
+        float:left;
+        height: 510px;
+        width: 728px;
+        }
+        
+        /* Add animation to the slides */
+        .slide-wrapper {
+        
+        /* Calculate the total width on the
+        basis of number of slides */
+        width: calc(728px * 3);
+        
+        /* Specify the animation with the
+        duration and speed */
+        animation: slide 10s ease infinite;
+        }
+        
+        /* Set the background color
+        of each of the slides */
+        .slide:nth-child(1) {
+        background:lightblue;
+        }
+        
+        .slide:nth-child(2) {
+        background: pink;
+        }
+        
+        .slide:nth-child(3) {
+        background: grey;
+        }
+        
+        /* Define the animation
+        for the slideshow */
+        @keyframes slide {
+        
+        /* Calculate the margin-left for
+        each of the slides */
+        20% {
+            margin-left: 0px;
+        }
+        
+        40% {
+            margin-left: calc(-728px * 1);
+        }
+        
+        60% {
+            margin-left: calc(-728px * 2);
+        }
+        
+        
+
+        }
+        .items .productsheading {
+            background-color: blue;
+            padding: 0;
+            margin: 0;
+            font-size: 30px;
+            text-align: center;
+            color: whitesmoke;
+        }
+        .gridcontents {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+        .griditem {
+            text-align: center;
+            margin: 10px;
+        }
+        .about {
+            color: black;
+            font-size: large;
+            text-align: left;
+
+            
+        }
+        .gridfooter {
+
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        footer {
+            background-color: gray;
+        }
+    .items .contactsheading {
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        font-size: 30px;
+        text-align: center;
+        color: whitesmoke;
+    }
+    .contactfonts {
+        font-size:x-large;
+        font-style: italic;
+    }
+    
